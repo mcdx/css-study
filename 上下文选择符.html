@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        /**上下文选择符也叫后代组合式选择符*/
+        article p{font-weight: bold;}
+        article h1 em{color:green}  <!---->
+    </style>
 </head>
 <body>
+<article>
+    <h1>Contextual selectors are <em>very</em> selective</h1>
+    <p>This example shows how to target a <em>specific</em> tag.</p>
+</article>
+<aside>
+    <p>Contextual selectors are <em>very</em> useful!</p>
+</aside>
 
 </body>
 </html>
